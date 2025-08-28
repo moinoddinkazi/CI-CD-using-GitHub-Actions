@@ -8,7 +8,7 @@ def play_game():
         user_choice = input("\nEnter Rock, Paper, or Scissors (or 'quit' to exit): ").lower()
 
         if user_choice == 'quit':
-            print("Thanks for playing!")
+            print("Thanks for playing the game!")
             break
 
         if user_choice not in choices:
